@@ -8,5 +8,6 @@ def hello():
 
 hello();
 
+#No need to tell the type of the variables
 a = 3 + 2
 print (a)
