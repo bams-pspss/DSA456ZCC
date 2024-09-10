@@ -1,0 +1,42 @@
+% Yellow ----- =
+x Green  ----- = 
+? Cyan   ----- =
+! Red    ----- = 
+- Orange ----- =
+================
+
+x git add .
+x git commit -m "Comment"
+x git push
+
+Python
+- Snake Case
+    this_is_a_variable_name
+- ALLCAPS for CONSTANTS
+
+
+
+
+class BaseClass:
+    def __init__(self, argument_list):
+        self.attribute1 = ...
+        self.attribute2 = ...
+
+    def function1(self, arguments):
+        ...
+
+class DerivedClass(BaseClass):
+    def __init__(self, argument_list):
+        super().__init__(arguments_for_attribute1_and_attribute2)    # notice you don't use self in this call
+        self.attribute3 = ...
+
+    def function1(self, arguments):
+        ... # overrides base class function
+
+    def function2(self, arguments):
+        ... # new function exclusive to derived class
+
+So the super is like calling the base class?
+In Python, super() is a built-in function that allows access to methods and properties of a 
+parent or superclass from a child or subclass. This is useful when working with inheritance 
+in object-oriented programming.
